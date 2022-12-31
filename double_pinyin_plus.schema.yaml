@@ -70,11 +70,11 @@ custom_phrase:
   initial_quality: 1
   user_dict: custom_phrase
 
-english:
-  dictionary: english
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: 0
+# english:
+#   dictionary: english
+#   enable_completion: true
+#   enable_sentence: false
+#   initial_quality: 0
 
 zrm2000:
   dictionary: zrm2000
