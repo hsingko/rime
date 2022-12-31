@@ -15,9 +15,7 @@ schema:
     - 增加自然码辅码支持(自然码2000)
     - 增加 Emoji 支持
   dependencies:
-    # - stroke
     - zrm2000
-    - english
 
 switches:
   - name: ascii_mode
@@ -70,21 +68,11 @@ custom_phrase:
   initial_quality: 1
   user_dict: custom_phrase
 
-# english:
-#   dictionary: english
-#   enable_completion: true
-#   enable_sentence: false
-#   initial_quality: 0
-
 zrm2000:
   dictionary: zrm2000
   enable_sentence: false
   max_phrase_length: 8
 
-# emoji_suggestion:
-#   opencc_config: emoji.json
-#   option_name: emoji_suggestion
-#   tips: all
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA.,
