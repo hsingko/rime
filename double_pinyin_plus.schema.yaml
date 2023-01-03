@@ -51,7 +51,6 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator@english
     - table_translator@custom_phrase
     - table_translator@zrm2000
     - script_translator
