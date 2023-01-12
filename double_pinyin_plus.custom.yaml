@@ -4,7 +4,7 @@ patch:
 
   # 扩充符号库
   punctuator/import_preset: symbols
-  recognizer/patterns/punct: "^/([A-Z|a-z]*|[0-9]|10)$"
+  # recognizer/patterns/punct: "^/([A-Z|a-z]*|[0-9]|10)$"
 
   # 自动造句 (阴阳鱼☯️️ 图标)
   zrm2000/enable_sentence: false
